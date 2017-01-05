@@ -2,17 +2,17 @@
 
 Docker image containing RCLONE that is compatible to the Raspberry Pi.
 Rclone is a command line program to sync files and directories to and from
-+Google Drive
-+Amazon S3
-+Openstack Swift / Rackspace cloud files / Memset Memstore
-+Dropbox
-+Google Cloud Storage
-+Amazon Drive
-+Microsoft One Drive
-+Hubic
-+Backblaze B2
-+Yandex Disk
-+The local filesystem
++ Google Drive
++ Amazon S3
++ Openstack Swift / Rackspace cloud files / Memset Memstore
++ Dropbox
++ Google Cloud Storage
++ Amazon Drive
++ Microsoft One Drive
++ Hubic
++ Backblaze B2
++ Yandex Disk
++ The local filesystem
 
 ### Build the Docker Image
 ```bash
@@ -41,5 +41,5 @@ docker run -it --rm=true \
 ```
 
 ### Links
-+[rclone](http://rclone.org/)
-+[rpi-golang](https://github.com/hypriot/rpi-golang)
++ [rclone](http://rclone.org/)
++ [rpi-golang](https://github.com/hypriot/rpi-golang)
