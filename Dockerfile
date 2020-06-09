@@ -1,4 +1,4 @@
-FROM hypriot/rpi-golang
+FROM balenalib/raspberry-pi-debian:latest
 
 MAINTAINER Tloxipeuhca <tloxipeuhca@gmail.com>
 
