@@ -14,6 +14,7 @@ RUN mv /root/$(zipinfo -1 rclone-current-linux-arm.zip | grep "/$")/rclone /bin
 RUN chmod 744 /bin/rclone
 
 #Clean up
+RUN rm /root/.rclone.conf
 RUN rm -fR /root/$(zipinfo -1 rclone-current-linux-arm.zip | grep "/$")
 RUN rm /root/rclone-current-linux-arm.zip
 RUN apt-get remove wget unzip -y 
